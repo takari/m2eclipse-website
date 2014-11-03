@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?> 
+<?xml-stylesheet type="text/xsl" href="project-plan-render.xsl"?>
+<!--?xml-stylesheet type="text/xsl" href="project-plan-render.xsl"?-->
+<!-- Transfer -->
+<p:plan xmlns:p="http://www.eclipse.org/project/plan" xmlns="http://www.w3.org/1999/xhtml">
+  <p:release projectid="m2e" version="1.5.0"/>
+  <p:introduction>
+    <p>M2E provides both a framework for building Maven-centric Eclipse
+      tools and a set of tools and user interface elements directly
+      consumable by Eclipse Users.</p>
+    <div>
+      <p>As a framework, M2E provides facilities to import and configure
+        Maven projects in Eclipse workspace as well as APIs that allow
+        m2e extensions to access Maven project metadata and participate in
+        Maven project configuration and workspace build.</p>
+    </div>
+    <div>
+      For the end user, M2E provides:
+      <ul>
+        <li>wizards to import existing and to create new Maven projects
+        </li>
+        <li>rich form-based and text-based pom.xml file editor</li>
+        <li>launch configuration types to launch Maven build directly
+          from Eclipse IDE
+        </li>
+        <li>access Maven repository index to browse repository contents
+          and in various code-assist
+        </li>
+      </ul>
+    </div>
+    <p>Extensible JDT integration is provided by M2E as well.</p>
+  </p:introduction>
+  <p:release_deliverables>
+    <ul>
+      <li>feature to be installed into an Eclipse IDE installation using
+        an update site.
+      </li>
+    </ul>
+  </p:release_deliverables>
+  <p:release_milestones>
+    <p:preamble>
+      <p>
+        Release milestones will be occurring at roughly 6 week
+        intervals, and will be aligned with the
+        <a href="http://wiki.eclipse.org/Luna/Simultaneous_Release_Plan">
+          Luna Simultaneous Release
+        </a>
+        train.
+      </p>
+    </p:preamble>
+    <p:milestone date="25/06/2015" milestone="1.5.0">
+      <div>1.5.0</div>
+    </p:milestone>
+  </p:release_milestones>
+  
+
+  <p:target_environments>
+    <p>M2E requires minimum Java SE 6 VM.</p>
+    <p>M2E is compatible with Eclipse 4.3 and Eclipse
+      4.4 and is generally expected to work on each of these Eclipse
+      releases respective referenced platforms.
+    </p>
+    <p:internationalization>
+      <p>All m2e user interface elements are externalized, but only
+        English strings are provided as the default resource
+        bundles.
+      </p>
+    </p:internationalization>
+  </p:target_environments>
+
+  <p:compatibility_with_previous_releases>
+    <h3>Compatibility with Eclipse m2e 1.4.x</h3>
+    <p>
+      <strong>API Contract Compatibility:</strong>
+      m2e 1.5 API is backwards compatible with m2e 1.4.x.
+    </p>
+    <p>
+      <strong>Workspace Compatibility:</strong>
+      m2e 1.5 workspace metadata is backwards compatible with m2e 1.4.x
+    </p>
+  </p:compatibility_with_previous_releases>
+
+  <p:themes_and_priorities>
+    <p:preamble>
+    </p:preamble>
+    <p:theme name="Encourage comminity paritcipation">
+      <p:committed>
+        <ul>
+          <li>
+            <strong>Agile opensource project</strong>
+            m2e is an agile opensource project and as such does not have 
+            feature and/or bugfix roadmap. We encourage community members to come
+            forward with ideas how to improve m2e and generally plan to prioritise 
+            patches review over other m2e development activities. 
+          </li>
+        </ul>
+      </p:committed>
+    </p:theme>
+    <p:theme name="Stay current with Maven technologies">
+      <p:committed>
+        <ul>
+          <li>
+            <strong>Include latest released Maven version</strong>
+            To maintain parity with bugfixes and new features available to 
+            command line Maven users, m2e will include latest Maven version 
+            available in time for Luna release. We will work with Maven core
+            developers to align m2e and maven release schedules.
+          </li>
+        </ul>
+      </p:committed>
+    </p:theme>
+  </p:themes_and_priorities>
+</p:plan>

@@ -1,0 +1,27 @@
+# Site customization
+#
+# any variable here is referenced in layouts/pages as {{site.XXX}} so something like {{site.googleId}}
+#
+name: Takari
+googleId: UA-56202333-1
+theme: m2eclipse
+navigation:
+ - title: News
+   url: /m2e/m2e-news.html
+ - title: Download
+   url: /m2e/m2e-downloads.html 
+ - title: Documentation
+   url: /m2e/documentation/m2e-documentation.html
+ - title: Community
+   url: /m2e/m2e-community.html   
+   
+# RSS
+url: http://eclipse.org/m2e
+description: News for takari.io
+
+# Jekyll 
+highlighter: pygments
+markdown: redcarpet-pygments
+redcarpet: 
+  extensions: [with_toc_data]
+exclude: [jekyll.jar, jekyll.sh, jekyll-stage.sh, jekyll-deadweight]
