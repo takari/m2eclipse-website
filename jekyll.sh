@@ -1,4 +1,4 @@
 #!/bin/sh
 dir=`pwd`
-site=/tmp/site-m2e
+site=${dir}/_site
 java -jar $dir/jekyll.jar -d ${site} serve
