@@ -4,27 +4,20 @@
 <!--[if !IE]><!-->
 <html lang="en"> <!--<![endif]-->
   <head>
-    <title>M2Eclipse | {{page.title}}</title>
-
+    <title>{{site.name}} | {{page.title}}</title>
     <!-- Meta -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Takari is focused on continuous delivery for the Maven ecosystem and offers Apache Maven training classes" />
-    <meta name="author" content="takari.io" />
-    <meta property="twitter:account_id" content="4503599627980362" />  
-    
+    <meta name="description" content="{{site.description}}" />
+    <meta name="author" content="{{site.domain}}" />
+    <meta property="twitter:account_id" content="{{site.twitterId}}" />      
     <!-- CSS Global Compulsory-->
-    <link rel="stylesheet" href="/m2e/assets/plugins/bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="/m2e/assets/css/style.css" />
-    <link rel="stylesheet" href="/m2e/assets/css/{{site.theme}}.css" />
-    <link rel="shortcut icon" href="/m2e/assets/img/favicon.ico" />        
+    <link rel="stylesheet" href="{{site.context}}/assets/plugins/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="{{site.context}}/assets/css/style.css" />
+    <link rel="stylesheet" href="{{site.context}}/assets/css/{{site.theme}}.css" />
+    <link rel="shortcut icon" href="{{site.context}}/assets/img/favicon.ico" />        
     <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="/m2e/assets/plugins/font-awesome/css/font-awesome.css" />
-    <link rel="stylesheet" href="/m2e/assets/plugins/flexslider/flexslider.css" />
-    <link rel="stylesheet" href="/m2e/assets/plugins/parallax-slider/css/parallax-slider.css" />
-    <!-- Syntax Highlighting -->
-    <link rel="stylesheet" href="/m2e/assets/css/code/syntax-highlighting.css" />
-    
+    <link rel="stylesheet" href="{{site.context}}/assets/plugins/font-awesome/css/font-awesome.css" />    
     <!-- GA -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -32,7 +25,7 @@
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', '{{site.googleId}}', 'takari.io');
+      ga('create', '{{site.googleId}}', '{{site.domain}}');
       ga('send', 'pageview');
 
     </script>
@@ -51,27 +44,20 @@
     {% include footer.html %}
 
     <!-- JS Global Compulsory -->
-    <script type="text/javascript" src="/m2e/assets/plugins/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="/m2e/assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="/m2e/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/m2e/assets/plugins/hover-dropdown.min.js"></script>
-    <script type="text/javascript" src="/m2e/assets/plugins/back-to-top.js"></script>
-    <!-- JS Implementing Plugins -->
-    <script type="text/javascript" src="/m2e/assets/plugins/flexslider/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" src="/m2e/assets/plugins/parallax-slider/js/modernizr.js"></script>
-    <script type="text/javascript" src="/m2e/assets/plugins/parallax-slider/js/jquery.cslider.js"></script> 
-    <!-- JS Page Level -->
-    <script type="text/javascript" src="/m2e/assets/js/app.js"></script>
-    <script type="text/javascript" src="/m2e/assets/js/index.js"></script>
+    <script type="text/javascript" src="{{site.context}}/assets/plugins/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="{{site.context}}/assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="{{site.context}}/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{site.context}}/assets/plugins/hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="{{site.context}}/assets/plugins/back-to-top.js"></script>
+    <!-- TESTING JS -->
+    <script type="text/javascript" src="{{site.context}}/assets/plugins/app.js"></script>
     <script type="text/javascript">
-      jQuery(document).ready(function() {
-      App.init();
-      App.initSliders();
-      Index.initParallaxSlider();
-      });
+        jQuery(document).ready(function() {
+            App.init();
+        });
     </script>
     <!--[if lt IE 9]>
-        <script src="/m2e/assets/plugins/respond.js"></script>
+        <script src="{{site.context}}/assets/plugins/respond.js"></script>
     <![endif]-->
   </body>
 </html>	

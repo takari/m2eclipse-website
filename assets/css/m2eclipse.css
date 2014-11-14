@@ -117,19 +117,6 @@ ul.unstyled li {
   padding-left:0px;
   margin-left:0px; } 
 
-/* ul {
-  list-style:none outside none; } */
-
-/* ul li {
-  padding: 0px 0px 0px 24px;
-  font-size: 13px;
-  line-height: 21px;
-  background: url("/assets/img/icons/thin_right_arrow.png") no-repeat scroll left 5px transparent;
-  color: #8dcc8e; } */
-   
-//code {
-//  margin:30px;}
-
 .headline h2 {
   border-bottom: 2px solid #FFD34D; }
 
@@ -170,29 +157,6 @@ blockquote:hover,.hero {
 
 .btn-u,.tab-v1 .nav-tabs > .active > a:hover,.tab-v1 .nav-tabs > .active > a:focus,ul.blog-tags a:hover {
   background: #FFD34D; }
-  
-/* ------------------------------ MARGIN BOTTOM ------------------------------ */
-
-.margin-bottom-5,.margin-bottom-10,.margin-bottom-20,.margin-bottom-30,.margin-bottom-40,.margin-bottom-50 {
-  clear: both; }
-
-.margin-bottom-5 {
-  margin-bottom: 5px; }
-
-.margin-bottom-10 {
-  margin-bottom: 10px; }
-
-.margin-bottom-20 {
-  margin-bottom: 20px; }
-
-.margin-bottom-30 {
-  margin-bottom: 30px; }
-
-.margin-bottom-40 {
-  margin-bottom: 40px; }
-
-.margin-bottom-50 {
-  margin-bottom: 50px; }
 
 /* ------------------------------ HEADER/NAVIGATION STYLES (header1.css) ------------------------------ */
 
@@ -275,58 +239,6 @@ ul.nav li {
 .pagination > .active > a:hover,.pagination > .active > span:hover,.pagination > .active > a:focus,.pagination > .active > span:focus {
   background-color: #FFD34D;
   border-color: #FFD34D; }
-  
-/* ------------------------------ DROPDOWN MENU ------------------------------ */
-
-.header .navbar-right .dropdown-menu {
-  right: inherit; }
-
-.header .navbar .nav > li > a i.icon-angle-down {
-  top: -1px;
-  left: 1px;
-  font-size: 12px;
-  position: relative;
-  margin: 0 !important; }
-
-.header .dropdown-menu { 
-  padding: 0;
-  border: none;
-  min-width: 200px;
-  border-radius: 0; 
-  z-index: 9999 !important;
-  margin-top: -2px !important; 
-  border-top: solid 2px #9966cc; 
-  border-bottom: solid 2px #687074; }
-
-.header .dropdown-menu li a { 
-  color: #687074; 
-  font-size: 13px; 
-  font-weight: 400; 
-  padding: 6px 15px; 
-  border-bottom: solid 1px #eee; }
-
-.header .dropdown-menu .active > a,
-.header .dropdown-menu li > a:hover {
-  color: #fff;
-  filter: none !important;
-  background: #9966cc !important;
-  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  -o-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out; }
-
-.header .dropdown-menu li > a:focus {
-  background: none;
-  filter: none !important; }
-
-.header ul.dropdown-menu li {
-  padding-left:0px;
-  margin-left:0px; }
-
-/* ------------------------------ responsive.css ------------------------------ */
-
-.md-margin-bottom-40 {
-  margin-bottom: 40px; }
 
 /* ------------------------------ STICKY FOOTER ------------------------------ */
 

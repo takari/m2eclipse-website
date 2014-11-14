@@ -1,10 +1,18 @@
+# ----------------------------------------------------------------------------------------------------------------------
 # Site customization
-#
-# any variable here is referenced in layouts/pages as {{site.XXX}} so something like {{site.googleId}}
-#
-name: Takari
+# ----------------------------------------------------------------------------------------------------------------------
+# Any variable here is referenced in layouts/pages as {{site.XXX}} so something like {{site.googleId}}
+# ----------------------------------------------------------------------------------------------------------------------
+
+id: m2eclipse
+name: M2Eclipse
+domain: eclipse.org
+url: http://eclipse.org/m2e
+context: /m2e
+description: "M2Eclipse provides tight integration for Apache Maven into the Eclipse IDE."
+twitterId: 15710507
 googleId: UA-56202333-1
-theme: m2eclipse
+
 navigation:
  - title: News
    url: /m2e/m2e-news.html
@@ -14,14 +22,20 @@ navigation:
    url: /m2e/documentation/m2e-documentation.html
  - title: Community
    url: /m2e/m2e-community.html   
-   
-# RSS
-url: http://eclipse.org/m2e
-description: News for takari.io
 
+# ----------------------------------------------------------------------------------------------------------------------
+# Theme
+# ----------------------------------------------------------------------------------------------------------------------
+
+theme: m2eclipse
+ 
+# ----------------------------------------------------------------------------------------------------------------------
 # Jekyll 
+# ----------------------------------------------------------------------------------------------------------------------
+
 highlighter: pygments
 markdown: redcarpet-pygments
 redcarpet: 
   extensions: [with_toc_data]
-exclude: [jekyll.jar, jekyll.sh, jekyll-stage.sh, jekyll-deadweight]
+exclude: [jekyll.jar, jekyll.sh]
+  
