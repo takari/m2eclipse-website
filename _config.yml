@@ -37,5 +37,5 @@ highlighter: pygments
 markdown: redcarpet-pygments
 redcarpet: 
   extensions: [with_toc_data]
-exclude: [jekyll.jar, jekyll.sh]
+exclude: [jekyll.jar, jekyll.sh, Icon., .git]
   
