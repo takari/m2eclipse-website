@@ -177,27 +177,30 @@ platforms (this list is updated over the course of the release cycle):
   </tr>
   <tr>
     <td>Linux</td>
-    <td>CentOS 6.5, Ubuntu 14.04</td>
-    <td>x86 64-bit</td>
-    <td>Oracle Java 1.7.0_45, 1.8.0_05</td>
+    <td>CentOS 6.5</td>
+    <td>x86-64</td>
+    <td>Oracle Java 1.7, 1.8</td>
     <td>GTK+ 2</td>
-    <td>1.7, [TBD 1.8]</td>
+    <td>
+      <a href="https://ci.takari.io/job/m2eclipse-core-tests/lastCompletedBuild/testReport/">1.7</a> 
+      <a href="https://ci.takari.io/job/m2eclipse-core-tests%20%28jdk-1.8%29/lastCompletedBuild/testReport/">1.8</a>
+    </td>
   </tr>
   <tr>
     <td>OSX</td>
     <td>10.9</td>
-    <td>x86 64-bit</td>
-    <td>Oracle Java 1.7.0_45, 1.8.0_05</td>
+    <td>x86-64</td>
+    <td>Oracle Java 1.7, 1.8</td>
     <td>Cocoa</td>
-    <td>[TBD 1.7.0_45], [TBD 1.8.0_05]</td>
+    <td>[TBD 1.7], [TBD 1.8]</td>
   </tr>
   <tr>
     <td>Windows</td>
     <td>Windows 7</td>
-    <td>x86 64-bit</td>
-    <td>Oracle Java 1.7.0_45, 1.8.0_05</td>
+    <td>x86-64</td>
+    <td>Oracle Java 1.7, 1.8</td>
     <td>Windows 7</td>
-    <td>[TBD 1.7.0_45], [TBD 1.8.0_05]</td>
+    <td>[TBD 1.7], [TBD 1.8]</td>
   </tr>
   </tbody>
 </table>
