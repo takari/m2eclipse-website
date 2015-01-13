@@ -1,4 +1,4 @@
 #!/bin/sh
 dir=`pwd`
 rm -rf ${site}
-java -jar $dir/jekyll.jar serve
+java -jar $dir/tools/jekyll.jar serve

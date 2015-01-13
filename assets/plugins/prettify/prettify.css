@@ -1,0 +1,65 @@
+/* GitHub Theme */
+
+code.prettyprint {
+  padding: 0px;
+  background-color: white;
+	border: none;
+  overflow: auto;	
+	
+}
+
+pre.prettyprint {
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;  
+  //padding: 100px;
+  padding-top: 15px;
+}
+
+.com { color: green; }
+.lit { color: #195f91; }
+.pun { color: #555; }
+.opn { color: black; } 
+.clo { color: blue; }
+.fun { color: #dc322f; }
+.str { color: #4200bf; } 
+.atv { color: #D14; }
+.kwd { color: #7f0085; font-weight:bold;}
+.linenums .tag { color: #1e347b; }
+.typ { color: #777; }
+.atn { color: teal; } 
+.dec { color: teal; } 
+.var { color: teal; }
+.pln { color: #48484c; }
+
+ol.linenums li {
+  color: #bebec5;
+}
+
+.prettyprint.linenums {
+  -webkit-box-shadow: inset 47px 0 0 #fbfbfc, inset 48px 0 0 #ececf0;
+     -moz-box-shadow: inset 47px 0 0 #fbfbfc, inset 48px 0 0 #ececf0;
+          box-shadow: inset 47px 0 0 #fbfbfc, inset 48px 0 0 #ececf0;
+}
+
+/* IE indents via margin-left */
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L4,
+li.L5,
+li.L6,
+li.L7,
+li.L8,
+li.L9 {
+  padding-left: 10px;
+}
+
+/* Alternate shading for lines */
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 {
+  /* */
+}
