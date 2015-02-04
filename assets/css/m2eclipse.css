@@ -125,7 +125,10 @@ blockquote:hover,.hero {
 
 .list-large {
   font-size: 14px; }
-  
+
+.container {
+  max-width: 1270px; }
+
 /* ------------------------------ BUTTONS ------------------------------ */
 
 .btn-u {
