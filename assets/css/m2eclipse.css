@@ -129,6 +129,35 @@ blockquote:hover,.hero {
 .container {
   max-width: 1270px; }
 
+/* ------------------------------ MARGIN BOTTOM ------------------------------ */
+
+.margin-bottom-5,.margin-bottom-10,.margin-bottom-20,.margin-bottom-30,.margin-bottom-40,.margin-bottom-50 {
+  clear: both; }
+
+.margin-bottom-5 {
+  margin-bottom: 5px; }
+
+.margin-bottom-10 {
+  margin-bottom: 10px; }
+
+.margin-bottom-20 {
+  margin-bottom: 20px; }
+
+.margin-bottom-30 {
+  margin-bottom: 30px; }
+
+.margin-bottom-40 {
+  margin-bottom: 40px; }
+
+.margin-bottom-50 {
+  margin-bottom: 50px; }
+  
+.margin-bottom-100 {
+  margin-bottom: 100px; }
+
+.md-margin-bottom-40 {
+  margin-bottom: 40px; }
+  
 /* ------------------------------ BUTTONS ------------------------------ */
 
 .btn-u {
@@ -184,12 +213,19 @@ blockquote:hover,.hero {
   z-index: 2;
   position: relative;
   padding: 0; }
+  
+.header .navbar-brand img {
+  margin:20px 0px 20px; }
 
+.header .navbar-inner {
+  background-color: rgba(2, 32, 91, 0.9);
+  border-bottom: solid 2px #FFD34D; }
+  
 .header .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #fff;
   font-size: 14px;
   font-weight: 400;
-  padding: 40px 10px 15px;
+  padding: 40px 5px 15px;
   text-transform: uppercase; }
 
 .header .navbar-default .navbar-nav > li > a:hover {
@@ -231,7 +267,8 @@ ul.nav li {
   border-bottom: solid 4px transparent; }
 
 .header .navbar-default .navbar-nav > li > a:hover,.header .navbar-default .navbar-nav > .active > a {
-  border-bottom: solid 4px #FFD34D; }
+  border-bottom: solid 5px #FFD34D;
+  padding-bottom: 26px; }
 
 .header .navbar-default .navbar-nav > li > a,.header .navbar-default .navbar-nav > li > a:hover,.header .navbar-default .navbar-nav > li > a:focus,.header .navbar-default .navbar-nav > .active > a,.header .navbar-default .navbar-nav > .active > a:hover,.header .navbar-default .navbar-nav > .active > a:focus {
   background: none; }
@@ -367,3 +404,18 @@ tbody > tr:nth-child(even) > th {
 
 .doc img {
   text-align:center; }
+        
+.docNavigation.affix {
+  position: fixed; }
+  
+@media(max-width:992px){
+   .docNavigation.affix {
+     position: static;
+     width: auto;
+     top: 0;
+    }
+}
+
+.anchor {
+  padding-top: 120px;
+  margin-top: -100px; }
