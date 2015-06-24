@@ -35,6 +35,18 @@ annual Eclipse Mars release train. [86 Bugs](https://bugs.eclipse.org/bugs/bugli
 
   The performance was improved when handling large archetype catalogs. Eg. reading Maven Central's catalog (http://repo1.maven.org/maven2/) and its 10k archetypes is about 10 times faster.
 
+# Improved project configurator ordering
+Before M2Eclipse 1.6, for any given Mojo execution in the Maven Lifecycle, you could have one "primary" configurator and an unlimited number of "secondary" configurators, that would run in an undefined order, after the primary one.
+
+M2EClipse 1.6 introduced new `runsAfter` and `runsBefore` attributes to the configurator extension point, to better control the configurators order.
+
+`runsAfter` : Optional comma-separated list of ids of required project configurators this configurator should run after.
+ids suffixed with ? are considered optional
+
+`runsBefore` : Optional comma-separated list of ids of optional project configurators this configurator should run before.
+ids suffixed with * are considered required
+
+So for example runsAfter="org.eclipse.m2e.jdt.javaConfigurator?" will guarantee *any* configurator will run after the Java configurator. Read [this](https://bugs.eclipse.org/bugs/show_bug.cgi?id=449495#c1) for more informations.
 
 # Conclusion
 
