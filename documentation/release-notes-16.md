@@ -8,12 +8,12 @@ Date: June 24th, 2015
 [M2Eclipse](https://www.eclipse.org/m2e), released version 1.6.0, as part of the
 annual Eclipse Mars release train. [86 Bugs](https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&list_id=12090411&product=m2e&query_format=advanced&target_milestone=1.6.0%2FMars%20M1&target_milestone=1.6.0%2FMars%20M2&target_milestone=1.6.0%2FMars%20M3&target_milestone=1.6.0%2FMars%20M4&target_milestone=1.6.0%2FMars%20M5&target_milestone=1.6.0%2FMars%20M6&target_milestone=1.6.0%2FMars%20M7&target_milestone=1.6.0%2FMars%20RC1&target_milestone=1.6.0%2FMars%20RC2) were fixed as part of that release. Even though M2EClipse 1.6.0 targeted Eclipse Mars, it should still be compatible with Eclipse Luna. Along improving the overall performance in a number of areas, we made some nice usability improvements and bug fixes woth a highlight:
 
-
-# new Embedded Maven 3.3.3 runtime
+# new Embedded Maven 3&#46;3&#46;3 runtime
 
   The embedded Maven runtime has been updated to maven 3.3.3. The [Core Extension mechanism](http://blog.soebes.de/blog/2015/03/17/apache-maven-3-dot-3-1-features/) is honored when running launch configurations (as in `Run` > `Run as...` > `Maven build`). However, custom configurations and extensions in `.mvn` will be ignored during regular Eclipse builds. If you're interested in playing with [polyglot Maven](http://takari.io/2015/03/19/polyglot-maven.html) support for M2Eclipse, you can try the experimental [m2e polyglot POC](https://github.com/jbosstools/m2e-polyglot-poc).
 
-# Improved auto-completion in pom.xml editor
+
+# Improved auto&#45;completion in pom&#46;xml editor
 
   The pom.xml editor as seen some nice improvements in the content-assist area. Deeply nested configuration elements, such as `manifest` attributes, can now be autocompleted:
 
@@ -21,7 +21,7 @@ annual Eclipse Mars release train. [86 Bugs](https://bugs.eclipse.org/bugs/bugli
 
   Pro tip : Make sure the plugin version is locked, so the content assist engine can infer which attributes are available.
 
-# New experimental Auto-update configuration feature
+# New experimental Auto&#45;update configuration feature
 
   Remember the time where every time you changed something in your pom.xml, you'd get an `Out-of-Date project configuration` error marker? With M2Eclipse 1.6, we introduced an new mechanism that will automatically update the project configuration, when such markers are created, following plugin configuration changes in pom.xml. This needs to be manually enabled in the Maven Preferences:
 
