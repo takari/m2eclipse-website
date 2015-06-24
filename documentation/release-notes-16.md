@@ -39,7 +39,7 @@ Eclipse Mars release train. There are [86 Bugs](https://bugs.eclipse.org/bugs/bu
 
 Before M2Eclipse 1.6 for any given Mojo execution in the Maven Lifecycle you could have one "primary" configurator and an unlimited number of "secondary" configurators that would run in an undefined order, after the primary one.
 
-M2EClipse 1.6 introduces new `runsAfter` and `runsBefore` attributes to the configurator extension point, to better control the configurators order.
+M2Eclipse 1.6 introduced new `runsAfter` and `runsBefore` attributes to the configurator extension point, to better control the configurators order.
 
 `runsAfter` : Optional comma-separated list of ids of required project configurators this configurator should run after.
 ids suffixed with ? are considered optional
