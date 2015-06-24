@@ -9,9 +9,9 @@ title:  Downloads
     <h2>Latest Release Build<br />
     <span class="footnote">(recommended)</span></h2>
   </div></a>
-  <a href="http://download.eclipse.org/technology/m2e/milestones/1.6"><div class="col-md-4 buttonBG">
+  <a href="http://download.eclipse.org/technology/m2e/milestones/1.7"><div class="col-md-4 buttonBG">
     <h2>Latest Milestone Build<br />
-    <span class="footnote">(toward 1.6)</span></h2>
+    <span class="footnote">(toward 1.7)</span></h2>
   </div></a>
   <a href="https://otto.takari.io/content/sites/m2e.extras/m2e/1.7.0/N/LATEST/"><div class="col-md-4 buttonBG">
     <h2>Latest SNAPSHOT Build<br />
