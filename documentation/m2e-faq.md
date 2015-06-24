@@ -19,7 +19,7 @@ In most cases you can change the location of your Java
 installation by setting the JAVA_HOME environment variable.
 ```
 
-That happens because those actions runs in the same JVM where Eclipse is running. If that JVM comes from JRE that isnât part of JDK, there is no
+That happens because those actions runs in the same JVM where Eclipse is running. If that JVM comes from JRE that isn't part of JDK, there is no
 Java compiler (the tools.jar) around. To workaround this you can add `-vm` argument to Eclipse command line or eclipse.ini. For Eclipse 3.3 it would look something like this:
 
 ```
@@ -69,7 +69,7 @@ M2Eclipse is using Maven `settings.xml` for proxy, local repository location and
 
 Default location of the `settings.xml` is at `~/.m2/settings.xml`, but you can also specify location of the global settings, i.e. one in `<maven home>/conf/settings.xml`
 
-## Why do Resource Folders in Java Project Have `excluded="*"` 
+## Why do Resource Folders in Java Project Have `excluded="*"`
 
 Many users are confused that when Java project is configured in Eclipse, resource folders gets `excluded="*"`. This is done intentionally, because those resources are processed by the "Maven Builder" registered to the project. This builder provides special resource handling, that includes filtering, as well as execution of other Maven plugins for processing resources. See Maven build lifecycle for more details.
 
@@ -148,7 +148,7 @@ Plugin is not actually using Maven itself. It is using component that is part of
 Maven 2.0.x. The Embedder is used by the Maven command line interface (CLI) starting from version 2.1 that includes number of improvements to
 allow it to actually embed Maven.
 
-The m2eclipse is currently using the Embedder component from Maven 3.0. If you want to execute particular version of Maven installed elsewhere,
+The m2eclipse is currently using the Embedder component from Maven 3.3.3. If you want to execute particular version of Maven installed elsewhere,
 you can do so from the Maven launch configuration or select it as default in Maven / Installations preference page.
 
 ## Why does my Maven build work on the CLI but not in M2Eclipse?
@@ -196,4 +196,3 @@ There you can select corresponding Java process and open its properties
 (from the popup menu or using Alt-Enter shortcut):
 
 processproperties.png
-

@@ -7,7 +7,7 @@ title:  Development Environment
 
 Download and unpack Eclipse latest SDK build from <http://download.eclipse.org/eclipse/downloads/> . The instructions below assume fresh/clean Eclipse installation.
 
-Install M2Eclipse 1.5 or newer from <http://download.eclipse.org/technology/m2e/releases> . This is a P2 repository URL, use Eclipse Install UI to use it as explained in <http://help.eclipse.org/topic//org.eclipse.platform.doc.user/tasks/tasks-127.htm>
+Install M2Eclipse 1.6 or newer from <http://download.eclipse.org/technology/m2e/releases> . This is a P2 repository URL, use Eclipse Install UI to use it as explained in <http://help.eclipse.org/topic/org.eclipse.platform.doc.user/tasks/tasks-127.htm>
 
 Clone the M2Eclipse Core repository, see <https://git.eclipse.org/r/#/admin/projects/m2e/m2e-core> for the list of available protocols.
 

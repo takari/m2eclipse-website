@@ -15,6 +15,4 @@ following features:</p>
       <li>Automatic downloading of the required dependencies from the remote Maven repositories</li>
       <li>Wizards for creating new Maven projects, pom.xml and to enable Maven support on plain Java project</li>
       <li>Quick search for dependencies in Maven remote repositories</li>
-      <li>Quick fixes in the Java editor for looking up required dependencies/jars by the class or package name</li>
     </ul>
-

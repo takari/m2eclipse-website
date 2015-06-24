@@ -5,8 +5,8 @@ title:  Extension Development
 
 # Setting up Eclipse IDE
 
-- "Standard" Eclipse distribution 4.3 or newer from <http://www.eclipse.org/downloads/>
--   m2e 1.4 or newer from <http://download.eclipse.org/technology/m2e/releases/>, including semi-hidden m2e SDK feature (uncheck "Group items by category" to see it)
+- "Standard" Eclipse distribution 4.5 or newer from <http://www.eclipse.org/downloads/>
+-   m2e 1.6 or newer from <http://download.eclipse.org/technology/m2e/releases/>, including semi-hidden m2e SDK feature (uncheck "Group items by category" to see it)
 
 ![SDK](/m2e/assets/img/m2e-sdk-install.png)
 
@@ -71,8 +71,8 @@ configurator implementation (is explained below)
 ```
 public class AntlrProjectConfigurator extends AbstractJavaProjectConfigurator {
   @Override
-  public AbstractBuildParticipant getBuildParticipant(IMavenProjectFacade projectFacade, 
-                                                      MojoExecution execution, 
+  public AbstractBuildParticipant getBuildParticipant(IMavenProjectFacade projectFacade,
+                                                      MojoExecution execution,
                                                       IPluginExecutionMetadata executionMetadata) {
     return new AntlrBuildParticipant(execution);
   }
@@ -85,7 +85,7 @@ with m2e
 ```
 <extension point="org.eclipse.m2e.core.projectConfigurators">
   <configurator
-    class="org.sonatype.m2e.antlr.internal.AntlrProjectConfigurator" 
+    class="org.sonatype.m2e.antlr.internal.AntlrProjectConfigurator"
     id="org.sonatype.m2e.antlr.antlrConfigurator"
     name="ANTLR Project Configurator">
   </configurator>
@@ -282,12 +282,12 @@ separately.
  <repositories>
    <repository>
      <id>eclipse</id>
-     <url>[http://download.eclipse.org/releases/indigo](http://download.eclipse.org/releases/indigo)</url>
+     <url>[http://download.eclipse.org/releases/mars](http://download.eclipse.org/releases/mars)</url>
      <layout>p2</layout>
    </repository>
    <repository>
      <id>m2e</id>
-     <url>[http://download.eclipse.org/technology/m2e/releases/1.0](http://download.eclipse.org/technology/m2e/releases/1.0)</url>
+     <url>[http://download.eclipse.org/technology/m2e/releases/1.6](http://download.eclipse.org/technology/m2e/releases/1.6)</url>
      <layout>p2</layout>
    </repository>
  </repositories>
