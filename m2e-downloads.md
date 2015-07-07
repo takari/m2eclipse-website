@@ -145,11 +145,18 @@ During release, latest milestone build is \*copied\* to corresponding releases/ 
       <td><a href="http://download.eclipse.org/technology/m2e/releases/1.5/1.5.0.20140606-0033">http://download.eclipse.org/technology/m2e/releases/1.5/1.5.0.20140606-0033</a></td>
     </tr>
     <tr>
-      <td>1.5</td>
-      <td>1.5.0.20140606-0033</td>
-      <td>2014-06-25</td>
-      <td>releases/1.5/1.5.0.20140606-0033</td>
-      <td><a href="http://download.eclipse.org/technology/m2e/releases/1.5/1.5.0.20140606-0033">http://download.eclipse.org/technology/m2e/releases/1.5/1.5.0.20140606-0033</a></td>
+      <td>1.5.1</td>
+      <td>1.5.1.20150109-1820</td>
+      <td>2014-01-09</td>
+      <td>releases/1.5/1.5.1.20150109-1820</td>
+      <td><a href="http://download.eclipse.org/technology/m2e/releases/1.5/1.5.1.20150109-1820">http://download.eclipse.org/technology/m2e/releases/1.5/1.5.1.20150109-1820</a></td>
+    </tr>
+    <tr>
+      <td>1.5.2</td>
+      <td>1.5.2.20150413-2215</td>
+      <td>2015-04-13</td>
+      <td>releases/1.5/1.5.2.20150413-2215</td>
+      <td><a href="http://download.eclipse.org/technology/m2e/releases/1.5/1.5.2.20150413-2215">http://download.eclipse.org/technology/m2e/releases/1.5/1.5.2.20150413-2215</a></td>
     </tr>
     <tr>
       <td>1.6</td>
@@ -157,6 +164,13 @@ During release, latest milestone build is \*copied\* to corresponding releases/ 
       <td>2014-06-24</td>
       <td>releases/1.6/1.6.0.20150526-2032</td>
       <td><a href="http://download.eclipse.org/technology/m2e/releases/1.6/1.6.0.20150526-2032">http://download.eclipse.org/technology/m2e/releases/1.6/1.6.0.20150526-2032</a></td>
+    </tr>
+    <tr>
+      <td>1.6.1</td>
+      <td>1.6.1.20150625-2338</td>
+      <td>2015-06-25</td>
+      <td>releases/1.6/1.6.1.20150625-2338</td>
+      <td><a href="http://download.eclipse.org/technology/m2e/releases/1.6/1.6.1.20150625-2338">http://download.eclipse.org/technology/m2e/releases/1.6/1.6.1.20150625-2338</a></td>
     </tr>
   </tbody>
 </table>
