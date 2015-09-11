@@ -172,18 +172,25 @@ During release, latest milestone build is \*copied\* to corresponding releases/ 
       <td>releases/1.6/1.6.1.20150625-2338</td>
       <td><a href="http://download.eclipse.org/technology/m2e/releases/1.6/1.6.1.20150625-2338">http://download.eclipse.org/technology/m2e/releases/1.6/1.6.1.20150625-2338</a></td>
     </tr>
+    <tr>
+      <td>1.6.2</td>
+      <td>1.6.2.20150902-0002</td>
+      <td>2015-09-11</td>
+      <td>releases/1.6/1.6.2.20150902-0002</td>
+      <td><a href="http://download.eclipse.org/technology/m2e/releases/1.6/1.6.2.20150902-0002">http://download.eclipse.org/technology/m2e/releases/1.6/1.6.2.20150902-0002</a></td>
+    </tr>
   </tbody>
 </table>
 
 # Supported Environments
 
-## M2Eclipse 1.6.0/Mars
+## M2Eclipse 1.6.2/Mars
 
-M2Eclipse 1.6.0/Mars is tested and validated against Eclipse 4.4 (Luna)
+M2Eclipse 1.6.2/Mars is tested and validated against Eclipse 4.4 (Luna)
 
-M2Eclipse 1.6.0/Mars requires minimum java 7
+M2Eclipse 1.6.2/Mars requires minimum java 7
 
-M2Eclipse 1.6.0/Mars is tested and validated on the following reference
+M2Eclipse 1.6.2/Mars is tested and validated on the following reference
 platforms (this list is updated over the course of the release cycle):
 
 <table>
@@ -209,7 +216,7 @@ platforms (this list is updated over the course of the release cycle):
   </tr>
   <tr>
     <td>OSX</td>
-    <td>10.9</td>
+    <td>10.10</td>
     <td>x86-64</td>
     <td>Oracle Java 1.7, 1.8</td>
     <td>Cocoa</td>
