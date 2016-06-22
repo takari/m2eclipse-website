@@ -179,18 +179,25 @@ During release, latest milestone build is \*copied\* to corresponding releases/ 
       <td>releases/1.6/1.6.2.20150902-0002</td>
       <td><a href="http://download.eclipse.org/technology/m2e/releases/1.6/1.6.2.20150902-0002">http://download.eclipse.org/technology/m2e/releases/1.6/1.6.2.20150902-0002</a></td>
     </tr>
+    <tr>
+      <td>1.7.0</td>
+      <td>1.7.0.20160603-1933</td>
+      <td>2016-06-22</td>
+      <td>releases/1.7/1.7.0.20160603-1933</td>
+      <td><a   href="http://download.eclipse.org/technology/m2e/releases/1.7/1.7.0.20160603-1933">http://download.eclipse.org/technology/m2e/releases/1.7/1.7.0.20160603-1933</a></td>
+    </tr>
   </tbody>
 </table>
 
 # Supported Environments
 
-## M2Eclipse 1.6.2/Mars
+## M2Eclipse 1.7.0/Neon
 
-M2Eclipse 1.6.2/Mars is tested and validated against Eclipse 4.4 (Luna)
+M2Eclipse 1.7.0/Neon is tested and validated against Eclipse 4.6 (Neon)
 
-M2Eclipse 1.6.2/Mars requires minimum java 7
+M2Eclipse 1.7.0/Neon requires minimum java 8
 
-M2Eclipse 1.6.2/Mars is tested and validated on the following reference
+M2Eclipse 1.7.0/Neon is tested and validated on the following reference
 platforms (this list is updated over the course of the release cycle):
 
 <table>
@@ -207,28 +214,27 @@ platforms (this list is updated over the course of the release cycle):
     <td>Linux</td>
     <td>CentOS 6.5</td>
     <td>x86-64</td>
-    <td>Oracle Java 1.7, 1.8</td>
+    <td>Oracle 1.8</td>
     <td>GTK+ 2</td>
     <td>
-      <a href="https://ci.takari.io/job/m2eclipse-core-tests/lastCompletedBuild/testReport/">1.7</a>
-      <a href="https://ci.takari.io/job/m2eclipse-core-tests%20%28jdk-1.8%29/lastCompletedBuild/testReport/">1.8</a>
+      <a href="https://ci.takari.io/job/m2eclipse-core-tests/lastCompletedBuild/testReport/">1.8</a>
     </td>
   </tr>
   <tr>
     <td>OSX</td>
     <td>10.10</td>
     <td>x86-64</td>
-    <td>Oracle Java 1.7, 1.8</td>
+    <td>Oracle 1.8</td>
     <td>Cocoa</td>
-    <td>[TBD 1.7], [TBD 1.8]</td>
+    <td>[TBD 1.8]</td>
   </tr>
   <tr>
     <td>Windows</td>
     <td>Windows 7</td>
     <td>x86-64</td>
-    <td>Oracle Java 1.7, 1.8</td>
+    <td>Oracle 1.8</td>
     <td>Windows 7</td>
-    <td>[TBD 1.7], [TBD 1.8]</td>
+    <td>[TBD 1.8]</td>
   </tr>
   </tbody>
 </table>

@@ -1,6 +1,6 @@
 ---
 layout: m2e-docs
-title:  Making Maven Plugins M2Eclilpse Compatible
+title:  Making Maven Plugins M2Eclipse Compatible
 ---
 
 ### Overview

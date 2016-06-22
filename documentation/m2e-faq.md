@@ -148,7 +148,7 @@ Plugin is not actually using Maven itself. It is using component that is part of
 Maven 2.0.x. The Embedder is used by the Maven command line interface (CLI) starting from version 2.1 that includes number of improvements to
 allow it to actually embed Maven.
 
-The m2eclipse is currently using the Embedder component from Maven 3.3.3. If you want to execute particular version of Maven installed elsewhere,
+The m2eclipse is currently using the Embedder component from Maven 3.3.9. If you want to execute particular version of Maven installed elsewhere,
 you can do so from the Maven launch configuration or select it as default in Maven / Installations preference page.
 
 ## Why does my Maven build work on the CLI but not in M2Eclipse?

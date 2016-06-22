@@ -6,7 +6,7 @@ title:  Extension Development
 # Setting up Eclipse IDE
 
 - "Standard" Eclipse distribution 4.5 or newer from <http://www.eclipse.org/downloads/>
--   m2e 1.6 or newer from <http://download.eclipse.org/technology/m2e/releases/>, including semi-hidden m2e SDK feature (uncheck "Group items by category" to see it)
+-   m2e 1.7 or newer from <http://download.eclipse.org/technology/m2e/releases/>, including semi-hidden m2e SDK feature (uncheck "Group items by category" to see it)
 
 ![SDK](/m2e/assets/img/m2e-sdk-install.png)
 
