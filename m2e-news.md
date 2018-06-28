@@ -2,6 +2,17 @@
 layout: m2e-news
 title:  News
 ---
+
+# 27 Jun 2018 - M2Eclipse 1.9.0 Released
+
+M2Eclipse 1.9.0 has been released as part of the Eclipse Photon release train, please check out the [release notes]({{site.context}}/documentation/release-notes-19.html)
+
+
+# 28 Jun 2017 - M2Eclipse 1.8.0 Released
+
+M2Eclipse 1.8.0 has been released as part of the Eclipse Oxygen release train, please check out the [release notes]({{site.context}}/documentation/release-notes-18.html)
+
+
 # 22 Jun 2016 - M2Eclipse 1.7.0 Released
 
 M2Eclipse 1.7.0 has been released as part of the Eclipse Neon release train, please check out the [release notes]({{site.context}}/documentation/release-notes-17.html)

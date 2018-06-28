@@ -10,7 +10,7 @@ You can also use the script provided to run the Java implementation of Jekyll if
 ./jekyll.sh
 ```
 
-Now you can go to <http:localhost:4000> to see the site.
+Now you can go to http://localhost:4000/m2e/ to see the site.
 
 [1]: http://jekyllrb.com
 [2]: http://daringfireball.net/projects/markdown/

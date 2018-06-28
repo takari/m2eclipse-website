@@ -9,13 +9,14 @@ title:  Downloads
     <h2>Latest Release Build<br />
     <span class="footnote">(recommended)</span></h2>
   </div></a>
-  <a href="http://download.eclipse.org/technology/m2e/milestones/1.8"><div class="col-md-4 buttonBG">
+  <a href="http://download.eclipse.org/technology/m2e/milestones/1.9"><div class="col-md-4 buttonBG">
     <h2>Latest Milestone Build<br />
-    <span class="footnote">(toward 1.8)</span></h2>
+    <span class="footnote">(toward 1.9)</span></h2>
   </div></a>
-  <a href="https://otto.takari.io/content/sites/m2e.extras/m2e/1.8.0/N/LATEST/"><div class="col-md-4 buttonBG">
-    <h2>Latest SNAPSHOT Build<br />
-    <span class="footnote">(not tested, not hosted at eclipse.org)</span></h2>
+  <a href="http://download.eclipse.org/technology/m2e/snapshots/1.9.0/latest/"><div class="col-md-4 buttonBG">
+    <h2>Latest SNAPSHOT Build<br/>
+    <span class="footnote">&nbsp;</span>
+    </h2>
   </div></a>
 </div>
 
@@ -59,7 +60,7 @@ Tags are pushed to canonical git repository soon after build goes "live".
 
 ## M2Eclipse Release Train Contributions
 
-During development, M2Eclipse will provide release train contributions via milestone version repository (i.e. <http://download.eclipse.org/technology/m2e/milestones/1.6>). Each new build will be automatically picked up by the release aggregator job and does not require changes to aggregator descriptor.
+During development, M2Eclipse will provide release train contributions via milestone version repository (i.e. <http://download.eclipse.org/technology/m2e/milestones/1.9>). Each new build will be automatically picked up by the release aggregator job and does not require changes to aggregator descriptor.
 
 During release, latest milestone build is \*copied\* to corresponding releases/ directory and M2Eclipse contribution to release train aggregator will need to be updated at this point.
 
@@ -186,18 +187,53 @@ During release, latest milestone build is \*copied\* to corresponding releases/ 
       <td>releases/1.7/1.7.0.20160603-1933</td>
       <td><a   href="http://download.eclipse.org/technology/m2e/releases/1.7/1.7.0.20160603-1933">http://download.eclipse.org/technology/m2e/releases/1.7/1.7.0.20160603-1933</a></td>
     </tr>
+    <tr>
+      <td>1.8.0</td>
+      <td>1.8.0.20170516-2043</td>
+      <td>2017-06-28</td>
+      <td>releases/1.8/1.8.0.20170516-2043</td>
+      <td><a   href="http://download.eclipse.org/technology/m2e/releases/1.8/1.8.0.20170516-2043">http://download.eclipse.org/technology/m2e/releases/1.8/1.8.0.20170516-2043</a></td>
+    </tr>
+    <tr>
+      <td>1.8.1</td>
+      <td>1.8.1.20170728-1531</td>
+      <td>2017-07-28</td>
+      <td>releases/1.8/1.8.1.20170728-1531</td>
+      <td><a   href="http://download.eclipse.org/technology/m2e/releases/1.8/1.8.1.20170728-1531">http://download.eclipse.org/technology/m2e/releases/1.8/1.8.1.20170728-1531</a></td>
+    </tr>
+    <tr>
+      <td>1.8.2</td>
+      <td>1.8.2.20171007-0217</td>
+      <td>2017-10-11</td>
+      <td>releases/1.8/1.8.2.20171007-0217</td>
+      <td><a   href="http://download.eclipse.org/technology/m2e/releases/1.8/1.8.2.20171007-0217">http://download.eclipse.org/technology/m2e/releases/1.8/1.8.2.20171007-0217</a></td>
+    </tr>
+    <tr>
+      <td>1.8.3</td>
+      <td>1.8.3.20180227-2137</td>
+      <td>2018-03-21</td>
+      <td>releases/1.8/1.8.3.20180227-2137</td>
+      <td><a   href="http://download.eclipse.org/technology/m2e/releases/1.8/1.8.3.20180227-2137">http://download.eclipse.org/technology/m2e/releases/1.8/1.8.3.20180227-2137</a></td>
+    </tr>
+    <tr>
+      <td>1.9.0</td>
+      <td>1.9.0.20180606-2036</td>
+      <td>2018-06-27</td>
+      <td>releases/1.9/1.9.0.20180606-2036</td>
+      <td><a   href="http://download.eclipse.org/technology/m2e/releases/1.9/1.9.0.20180606-2036">http://download.eclipse.org/technology/m2e/releases/1.9/1.9.0.20180606-2036</a></td>
+    </tr>
   </tbody>
 </table>
 
 # Supported Environments
 
-## M2Eclipse 1.7.0/Neon
+## M2Eclipse 1.9.0/Photon
 
-M2Eclipse 1.7.0/Neon is tested and validated against Eclipse 4.6 (Neon)
+M2Eclipse 1.9.0/Photon is tested and validated against Eclipse 4.8 (Photon)
 
-M2Eclipse 1.7.0/Neon requires minimum java 8
+M2Eclipse 1.9.0/Photon requires minimum java 8
 
-M2Eclipse 1.7.0/Neon is tested and validated on the following reference
+M2Eclipse 1.9.0/Photon is tested and validated on the following reference
 platforms (this list is updated over the course of the release cycle):
 
 <table>
@@ -217,17 +253,18 @@ platforms (this list is updated over the course of the release cycle):
     <td>Oracle 1.8</td>
     <td>GTK+ 2</td>
     <td>
-      <a href="https://ci.takari.io/job/m2eclipse-core-tests/lastCompletedBuild/testReport/">1.8</a>
+      <a href="https://ci.takari.io/job/m2eclipse-core-tests/lastCompletedBuild/testReport/">1.9</a>
     </td>
   </tr>
   <tr>
     <td>OSX</td>
-    <td>10.10</td>
+    <td>10.13.3</td>
     <td>x86-64</td>
     <td>Oracle 1.8</td>
     <td>Cocoa</td>
-    <td>[TBD 1.8]</td>
+    <td>[TBD 1.9]</td>
   </tr>
+  <!--
   <tr>
     <td>Windows</td>
     <td>Windows 7</td>
@@ -236,5 +273,6 @@ platforms (this list is updated over the course of the release cycle):
     <td>Windows 7</td>
     <td>[TBD 1.8]</td>
   </tr>
+  -->
   </tbody>
 </table>
